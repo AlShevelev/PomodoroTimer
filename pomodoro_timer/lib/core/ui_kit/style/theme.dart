@@ -24,10 +24,16 @@ class AppThemeFactory {
       scaffoldBackgroundColor: AppColors.lightBrown,
 
       appBarTheme: const AppBarTheme(
-          backgroundColor: AppColors.lightBrown,
-          shadowColor: AppColors.lightBrown,
-          elevation: 0,
-          centerTitle: true
+        backgroundColor: AppColors.lightBrown,
+        shadowColor: AppColors.lightBrown,
+        elevation: 0,
+        centerTitle: true,
+        actionsIconTheme: IconThemeData(
+            color: AppColors.black
+        ),
+        iconTheme: IconThemeData(
+          color: AppColors.black
+        )
       ),
 
       textTheme: const TextTheme(
