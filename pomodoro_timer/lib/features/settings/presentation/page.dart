@@ -18,7 +18,7 @@ class _SettingsPageState extends State<SettingsPage> {
         appBar: AppBarBack(
           title: Text(AppLocalizations.of(context)!.settingsPageTitle),
           onBackPressed: () {
-
+            Navigator.of(context).pop();
           },
         ),
         body: CustomPaint(

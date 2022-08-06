@@ -18,7 +18,7 @@ class _ExplanationPageState extends State<ExplanationPage> {
         appBar: AppBarBack(
           title: Text(AppLocalizations.of(context)!.explanationPageTitle),
           onBackPressed: () {
-
+            Navigator.of(context).pop();
           },
         ),
         body: CustomPaint(
