@@ -3,5 +3,11 @@
 
     "settingsPageTitle": "Settings",
 
-    "explanationPageTitle": "Explanation"
+    "explanationPageTitle": "Explanation",
+    "explanationLine1": "Decide what task you need to complete",
+    "explanationLine2": "Set the timer for N minutes",
+    "explanationLine3": "Work on your task util the timer rings",
+    "explanationLine4": "Take a short,  N minute[s] break",
+    "explanationLine5": "Repeat N times (once/twice)",
+    "explanationLine6": "Take a long, N minute[s] break"
 }

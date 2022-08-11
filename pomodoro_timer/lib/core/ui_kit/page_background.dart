@@ -10,17 +10,42 @@ class PageBackground extends CustomPainter {
 
     final secondRingInnerRadius = size.width * 0.322;
 
-    _drawRing(outerRadius: size.width * 0.45, innerRadius: size.width * 0.416, center, color, canvas);
-    _drawRing(outerRadius: size.width * 0.35, innerRadius: secondRingInnerRadius, center, color, canvas);
+    _drawRing(
+      outerRadius: size.width * 0.45,
+      innerRadius: size.width * 0.416,
+      center,
+      color,
+      canvas,
+    );
 
-    _drawClock(color, canvas, center,
-        distantFromCenter: secondRingInnerRadius, len: size.width * 0.12, width: size.width * 0.01946);
+    _drawRing(
+      outerRadius: size.width * 0.35,
+      innerRadius: secondRingInnerRadius,
+      center,
+      color,
+      canvas,
+    );
+
+    _drawClock(
+      color,
+      canvas,
+      center,
+      distantFromCenter: secondRingInnerRadius,
+      len: size.width * 0.12,
+      width: size.width * 0.01946,
+    );
   }
 
   @override
   bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 
-  void _drawRing(Offset center, Color color, Canvas canvas, {required double outerRadius, required double innerRadius}) {
+  void _drawRing(
+    Offset center,
+    Color color,
+    Canvas canvas, {
+    required double outerRadius,
+    required double innerRadius,
+  }) {
     final paint = Paint()
       ..color = color
       ..strokeWidth = outerRadius - innerRadius
@@ -29,8 +54,14 @@ class PageBackground extends CustomPainter {
     canvas.drawCircle(center, (outerRadius + innerRadius) / 2, paint);
   }
 
-  void _drawClock(Color color, Canvas canvas, Offset center,
-      {required double distantFromCenter, required double len, required double width}) {
+  void _drawClock(
+    Color color,
+    Canvas canvas,
+    Offset center, {
+    required double distantFromCenter,
+    required double len,
+    required double width,
+  }) {
     final paint = Paint()
       ..color = color
       ..strokeWidth = width
