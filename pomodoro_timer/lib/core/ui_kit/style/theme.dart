@@ -44,8 +44,8 @@ class AppThemeFactory {
         subtitle1: AppTypography.s20w600,
         subtitle2: AppTypography.s20w400,
 
-        bodyText1: AppTypography.s14w600,
-        bodyText2: AppTypography.s14w400,
+        bodyText1: AppTypography.s18w600,
+        bodyText2: AppTypography.s18w400,
       )
     );
   }

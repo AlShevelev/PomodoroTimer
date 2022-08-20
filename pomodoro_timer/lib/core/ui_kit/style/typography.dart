@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 class AppTypography {
-  static const s14w400 = TextStyle(
-      fontSize: 14.0,
+  static const s18w400 = TextStyle(
+      fontSize: 18.0,
       fontWeight: FontWeight.w400     // regular
   );
 
-  static const s14w600 = TextStyle(
-      fontSize: 14.0,
+  static const s18w600 = TextStyle(
+      fontSize: 18.0,
       fontWeight: FontWeight.w600     // bold
   );
 

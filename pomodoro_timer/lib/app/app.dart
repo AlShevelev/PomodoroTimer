@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:pomodoro_timer/app/routing/routes.dart';
-import 'package:pomodoro_timer/features/home/presentation/page.dart';
+import 'routing/routes.dart';
+import '../features/home/presentation/home_page.dart';
 
 import '../core/ui_kit/style/theme.dart';
 

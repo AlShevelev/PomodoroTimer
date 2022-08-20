@@ -2,6 +2,14 @@
     "homePageTitle": "",
 
     "settingsPageTitle": "Settings",
+    "settingsPomodoro": "Pomodoro (minutes)",
+    "settingsShortBreak": "Short break (minutes)",
+    "settingsLongBreak": "Long break (minutes)",
+    "settingsPomodorosUntil": "Pomodoros until long break",
+    "settingsPomodorosTotal": "Pomodoros total",
+    "settingsTotalTime": "Total time",
+    "settingsAutostartBreaks": "Autostart breaks",
+    "settingsAutostartPomodoros": "Autostart pomodoros",
 
     "explanationPageTitle": "Explanation",
     "explanationLine1": "Decide what task you need to complete",

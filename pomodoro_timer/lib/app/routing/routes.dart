@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pomodoro_timer/app/routing/slide_left_route.dart';
-import 'package:pomodoro_timer/features/explanation/presentation/page.dart';
-import 'package:pomodoro_timer/features/settings/presentation/page.dart';
+import 'slide_left_route.dart';
+import '../../features/explanation/presentation/explanation_page.dart';
+import '../../features/settings/presentation/settings_page.dart';
 
 class Routes {
   static const homePage = '/';

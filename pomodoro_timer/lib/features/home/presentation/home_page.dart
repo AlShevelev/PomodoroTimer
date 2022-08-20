@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:pomodoro_timer/app/routing/routes.dart';
-import 'package:pomodoro_timer/core/ui_kit/page_background.dart';
-import 'package:pomodoro_timer/features/explanation/presentation/page.dart';
-import 'package:pomodoro_timer/features/settings/presentation/page.dart';
-
-import '../../../app/routing/slide_left_route.dart';
+import '../../../app/routing/routes.dart';
+import '../../../core/ui_kit/page_background.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
