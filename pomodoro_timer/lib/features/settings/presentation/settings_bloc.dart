@@ -3,7 +3,7 @@ import 'dart:async';
 import '../../../core/bloc/bloc_base.dart';
 import '../../../core/storage/key_value_storage.dart';
 import '../../../core/storage/storage_keys.dart';
-import 'model/settings.dart';
+import '../domain/model/settings.dart';
 
 class SettingsBloc extends BlocBase {
   final StreamController<Settings> _settings = StreamController<Settings>();

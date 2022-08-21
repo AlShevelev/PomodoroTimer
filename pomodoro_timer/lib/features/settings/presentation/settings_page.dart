@@ -4,7 +4,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'ui/checkbox_with_text.dart';
 import '../../../core/ui_kit/page_background.dart';
 import '../domain/model/settings.dart';
-import '../domain/settings_bloc.dart';
+import 'settings_bloc.dart';
 import 'ui/left_right_value_selector.dart';
 
 import '../../../core/bloc/bloc_provider.dart';
