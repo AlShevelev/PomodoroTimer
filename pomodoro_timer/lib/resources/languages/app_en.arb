@@ -10,6 +10,7 @@
     "settingsTotalTime": "Total time",
     "settingsAutostartBreaks": "Autostart breaks",
     "settingsAutostartPomodoros": "Autostart pomodoros",
+    "settingsTotalTime": "Total time: %sh. %sm.",
 
     "explanationPageTitle": "Explanation",
     "explanationLine1": "Decide what task you need to complete",

@@ -1,12 +1,12 @@
-
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import 'ui/total_time.dart';
 import 'ui/checkbox_with_text.dart';
 import '../../../core/ui_kit/page_background.dart';
 import '../domain/model/settings.dart';
 import 'settings_bloc.dart';
 import 'ui/left_right_value_selector.dart';
-
 import '../../../core/bloc/bloc_provider.dart';
 import '../../../core/ui_kit/app_bar_back.dart';
 
@@ -52,6 +52,7 @@ class _SettingsPageState extends State<SettingsPage> {
                   padding: const EdgeInsets.only(left: 16.0, top: 16.0),
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.start,
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Padding(
                         padding: const EdgeInsets.only(bottom: 16.0),
@@ -101,6 +102,12 @@ class _SettingsPageState extends State<SettingsPage> {
                           onValueChanged: (value) {
                             _bloc.setPomodoroTotal(value);
                           },
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.only(bottom: 32.0),
+                        child: TotalTime(
+                          snapshot.data!,
                         ),
                       ),
                       Padding(
