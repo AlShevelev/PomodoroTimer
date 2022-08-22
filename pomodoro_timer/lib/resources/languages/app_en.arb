@@ -14,9 +14,9 @@
 
     "explanationPageTitle": "Explanation",
     "explanationLine1": "Decide what task you need to complete",
-    "explanationLine2": "Set the timer for N minutes",
+    "explanationLine2": "Set the timer for %s minutes",
     "explanationLine3": "Work on your task util the timer rings",
-    "explanationLine4": "Take a short,  N minute[s] break",
-    "explanationLine5": "Repeat N times (once/twice)",
-    "explanationLine6": "Take a long, N minute[s] break"
+    "explanationLine4": "Take a short,  %s minutes break",
+    "explanationLine5": "Repeat %s times",
+    "explanationLine6": "Take a long, %s minutes break"
 }
